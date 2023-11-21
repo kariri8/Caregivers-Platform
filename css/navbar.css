@@ -1,0 +1,32 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Change the background color as needed */
+}
+  
+  /* Style for each navigation item */
+ul.navbar li.nav-item {
+    float: left;
+}
+  
+  /* Style for the links inside the navigation items */
+ul.navbar li.nav-item a {
+    display: block;
+    color: white; /* Change the text color as needed */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color on hover */
+ul.navbar li.nav-item a:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    color: black; /* Change the text color on hover */
+}
+  
+/* Align the last navigation item to the right */
+  ul.navbar li.nav-item:last-child {
+    float: right;
+}
